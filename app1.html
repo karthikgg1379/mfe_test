@@ -1,0 +1,36 @@
+<html>
+    <head><title>app1</title></head>
+
+    <script src="app1.js"></script>
+    <script>
+        function app1() {
+            const reverse3 = str => [...str].reverse().join('');
+            alert(reverse('Timbits Hi'));
+            reverse('Timbits Hi');
+            reverse2('Timbits Hi');
+        }
+    </script>
+
+<script>
+    function addCode() {
+        document.getElementById("add_to_me").innerHTML += 
+          "<h3>This is the text which has been inserted by JS</h3>";
+    }
+</script>
+
+<body>
+    <b> app1 MFE</b>
+    
+    <embed type="image/jpg" src="react.png" width="300" height="200">
+    <button name="ok" label="Click here" onclick="javascript:app1()">Click Here</button>
+
+
+    <div id="add_to_me">
+        <p>This is the text for REACT JSwhich has already been typed into the div</p>
+    </div>
+  
+    <button onclick="addCode()">Add Stuff</button>
+  
+
+</body>
+</html>
